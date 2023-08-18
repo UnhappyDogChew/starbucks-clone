@@ -1,23 +1,6 @@
-body {
-  font-family: "nbg", "맑은 고딕", HelveticaNeue, DroidSans, Sans-serif,
-    Helvetica;
-  font-size: 1em;
-  line-height: 1;
-}
-
 #header {
   background-color: cornflowerblue;
   height: 120px;
-}
-
-#container {
-  background-color: aquamarine;
-  height: 200px;
-}
-
-#footer {
-  background-color: darkcyan;
-  height: 100px;
 }
 
 #gnb {

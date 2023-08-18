@@ -1,0 +1,29 @@
+#container {
+  background-color: aquamarine;
+}
+
+.main-visual_wrap {
+  height: 32vw;
+  background-image: url(../img/promotion_bg.jpg);
+  background-size: cover;
+}
+
+.main-visual_header {
+  float: left;
+  width: 37%;
+  height: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-visual_container {
+  float: left;
+  width: 63%;
+  height: 100%;
+  background-color: blue;
+  display: flex;
+  align-items: ;
+}
