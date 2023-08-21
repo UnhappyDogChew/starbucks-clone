@@ -3,27 +3,61 @@
 }
 
 .main-visual_wrap {
+  position: relative;
   height: 32vw;
   background-image: url(../img/promotion_bg.jpg);
   background-size: cover;
 }
 
-.main-visual_header {
-  float: left;
-  width: 37%;
-  height: 100%;
-  background-color: red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.main-visual_title {
+  position: absolute;
+  top: 35%;
+  left: 11%;
+  width: 23%;
 }
 
-.main-visual_container {
-  float: left;
-  width: 63%;
-  height: 100%;
-  background-color: blue;
-  display: flex;
-  align-items: ;
+.main-visual_title img {
+  width: 100%;
+}
+
+.main-visual_btn {
+  position: absolute;
+  top: 62%;
+  left: 19%;
+  width: 7%;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #004734;
+  font-size: 14px;
+  padding-block: 14px 14px;
+  transition: all 0.8s ease;
+}
+
+.main-visual_btn:hover {
+  background-color: #004734;
+  color: white;
+  text-decoration: underline;
+}
+
+[class^="set_"] {
+  width: 13%;
+}
+
+[class^="set_"] img {
+  width: 100%;
+}
+
+.set_1 {
+  top: 17.5%;
+  left: 49.9%;
+}
+
+.set_2 {
+  top: 16.9%;
+  left: 38%;
+}
+
+.set_3 {
+  top: 17.2%;
+  right: 25.4%;
 }
