@@ -148,3 +148,68 @@
 .line_notice_right span.open {
   background-image: url(../img/btn_prom_up.png);
 }
+
+.prom_reward {
+  background-color: #1d3a31;
+  display: flex;
+  justify-content: center;
+  padding-block: 30px;
+}
+
+.prom_reward_header {
+  margin-inline-end: 40px;
+}
+
+.prom_reward_header a img {
+  width: 176px;
+}
+
+.prom_reward_inner {
+  width: 796px;
+}
+
+.prom_reward_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-block-end: 18px;
+  border-bottom: 1px solid #344d47;
+}
+
+.prom_reward_container_text {
+  color: #fff;
+}
+
+.prom_reward_container_text h2 {
+  font-size: 26px;
+  margin-block-end: 12px;
+}
+
+.prom_reward_container_text p {
+  line-height: 1.4;
+  font-size: 17px;
+}
+
+.prom_reward_container_menu span:last-child {
+  margin-inline-start: 5px;
+}
+
+.prom_reward_footer {
+  display: flex;
+  justify-content: space-between;
+  padding-block-start: 24px;
+}
+
+.prom_reward_footer_text {
+  color: #fff;
+}
+
+.prom_reward_footer_text p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.prom_reward_footer_menu .btn-outlined {
+  padding-inline: 0;
+  width: 178px;
+}

@@ -1,0 +1,29 @@
+.btn-filled {
+  display: inline-block;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 6px;
+  background-color: #00704a;
+  border: 2px #00704a solid;
+  text-align: center;
+}
+
+.btn-filled a:any-link {
+  color: #fff;
+  font-size: 14px;
+}
+
+.btn-outlined {
+  display: inline-block;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 2px #fff solid;
+  text-align: center;
+}
+
+.btn-outlined a:any-link {
+  color: #fff;
+  font-size: 14px;
+}
