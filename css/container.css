@@ -213,3 +213,45 @@
   padding-inline: 0;
   width: 178px;
 }
+
+.summer_promo {
+  background-image: url(../img/2023_summer2_promotion_bg_2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 572px;
+}
+
+.summer_promo_wrap {
+  margin-inline: auto;
+  position: relative;
+  max-width: 1124px;
+  height: 100%;
+}
+
+.summer_promo_img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14%;
+  width: 17%;
+}
+
+.summer_promo_img img {
+  width: 100%;
+}
+
+.summer_promo_inner {
+  position: absolute;
+  top: 23%;
+  right: 7.2%;
+  width: 32%;
+}
+
+.summer_promo_text {
+  width: 100%;
+  margin-block-end: 40px;
+}
+
+.summer_promo_text img {
+  width: 100%;
+}

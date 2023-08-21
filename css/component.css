@@ -27,3 +27,23 @@
   color: #fff;
   font-size: 14px;
 }
+
+.btn-outlined-ani {
+  display: inline-block;
+  padding-inline: 30px;
+  padding-block: 10px;
+  border-radius: 6px;
+  background-color: transparent;
+  border: 2px #fff solid;
+  text-align: center;
+  transition: all 0.8s ease;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.btn-outlined-ani:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: underline;
+}
