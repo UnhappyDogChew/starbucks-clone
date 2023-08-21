@@ -1,10 +1,10 @@
 #container {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .main-visual_wrap {
   position: relative;
-  height: 32vw;
+  aspect-ratio: 2000 / 646;
   background-image: url(../img/promotion_bg.jpg);
   background-size: cover;
 }
@@ -31,6 +31,12 @@
   font-size: 14px;
   padding-block: 14px 14px;
   transition: all 0.8s ease;
+  text-align: center;
+}
+
+.main-visual_btn:any-link {
+  text-decoration: none;
+  color: #004734;
 }
 
 .main-visual_btn:hover {
@@ -60,4 +66,85 @@
 .set_3 {
   top: 17.2%;
   right: 25.4%;
+}
+
+.line_notice {
+  display: flex;
+  height: 62px;
+}
+
+.line_notice_left {
+  flex: 1;
+  background-color: #111;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 10px;
+}
+
+.line_notice_left * {
+  margin-inline: 10px;
+}
+
+.line_notice_left img {
+  width: 65px;
+}
+
+.line_notice_left ol {
+  width: 313px;
+}
+
+.line_notice_left li {
+  color: #fff;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.line_notice_left li a:any-link {
+  color: #fff;
+}
+
+.line_notice_left span {
+  width: 36px;
+  height: 36px;
+  background-image: url(../img/btn_notice_plus.png);
+  background-size: contain;
+}
+
+.line_notice_left span a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-indent: -1000px;
+}
+
+.line_notice_right {
+  flex: 1;
+  background-color: #f6f5ef;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.line_notice_right img {
+  width: 129px;
+  height: 17px;
+  margin-inline: 94px 68px;
+}
+
+.line_notice_right span {
+  width: 36px;
+  height: 36px;
+  background-image: url(../img/btn_prom_down.png);
+  background-size: contain;
+  cursor: pointer;
+  overflow: hidden;
+  text-indent: -1000px;
+}
+
+.line_notice_right span.open {
+  background-image: url(../img/btn_prom_up.png);
 }

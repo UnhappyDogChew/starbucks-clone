@@ -8,3 +8,11 @@ body {
 .set_common {
   position: absolute;
 }
+
+a:any-link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
