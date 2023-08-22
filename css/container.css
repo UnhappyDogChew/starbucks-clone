@@ -91,7 +91,8 @@
 }
 
 .line_notice_left ol {
-  width: 313px;
+  max-width: 313px;
+  flex: 313px;
 }
 
 .line_notice_left li {
@@ -109,7 +110,7 @@
 .line_notice_left span {
   width: 36px;
   height: 36px;
-  background-image: url(../img/btn_notice_plus.png);
+  background: url(../img/btn_notice_plus.png) no-repeat;
   background-size: contain;
 }
 
@@ -122,6 +123,7 @@
 }
 
 .line_notice_right {
+  position: relative;
   flex: 1;
   background-color: #f6f5ef;
   display: flex;
@@ -130,12 +132,15 @@
 }
 
 .line_notice_right img {
+  position: absolute;
   width: 129px;
   height: 17px;
-  margin-inline: 94px 68px;
+  left: 10%;
 }
 
 .line_notice_right span {
+  position: absolute;
+  left: calc(20% + 129px);
   width: 36px;
   height: 36px;
   background-image: url(../img/btn_prom_down.png);
@@ -537,5 +542,39 @@
     font-size: 23px;
     font-weight: bold;
     border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .line_notice {
+    height: auto;
+    display: block;
+  }
+
+  [class^="line_notice_"] {
+    height: 110px;
+  }
+
+  .line_notice_left {
+    justify-content: space-between;
+    padding-inline: 30px;
+  }
+
+  .line_notice_left a:any-link {
+    font-size: 18px;
+  }
+
+  .line_notice_right {
+    width: 100%;
+  }
+
+  .line_notice_right img {
+    height: 28px;
+    left: 10%;
+    width: 221px;
+  }
+
+  .line_notice_right span {
+    left: calc(20% + 221px);
   }
 }
