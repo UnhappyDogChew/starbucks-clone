@@ -30,7 +30,7 @@
   border: 2px solid #004734;
   font-size: 14px;
   padding-block: 14px 14px;
-  transition: all 0.8s ease;
+  transition: color, background-color 0.8s ease;
   text-align: center;
 }
 
@@ -485,4 +485,57 @@
   top: 160px;
   right: 20px;
   z-index: 1001;
+}
+
+.m {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .main-visual_wrap {
+    background-image: url(../img/2023_m_summer2_promotion_bg_2.jpg);
+    aspect-ratio: 640 / 1760;
+  }
+
+  .main-visual_wrap .pc {
+    display: none;
+  }
+
+  .main-visual_wrap .m {
+    display: block;
+  }
+
+  .main-visual_title {
+    width: 37.2%;
+    top: 5.7%;
+    left: 16.7%;
+  }
+
+  .main-visual_container .set_1 {
+    top: 18.8%;
+    left: 17.5%;
+    width: 65.1%;
+  }
+
+  .main-visual_container .set_2 {
+    top: 39.5%;
+    left: 21.4%;
+    width: 77.5%;
+  }
+
+  .main-visual_container .set_3 {
+    top: 61.3%;
+    left: 16.8%;
+    width: 66.7%;
+  }
+
+  .main-visual_btn {
+    top: 88.1%;
+    left: 32%;
+    width: 36%;
+    line-height: 10vw;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
 }
