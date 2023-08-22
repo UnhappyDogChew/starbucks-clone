@@ -348,3 +348,50 @@
   width: 360px;
   direction: rtl;
 }
+
+.magazine {
+  height: 400px;
+  background: url(../img/reserve_bg_pc.png) no-repeat center #fff;
+  background-size: cover;
+}
+
+.magazine_inner {
+  position: relative;
+  width: 1120px;
+  height: 100%;
+  margin-inline: auto;
+}
+
+.magazine_text {
+  position: absolute;
+  top: 134px;
+  width: 100%;
+}
+
+.magazine_title {
+  position: relative;
+  background: url(../img/reserve_text_pc.png);
+  width: 588px;
+  height: 96px;
+  overflow: hidden;
+  text-indent: -1000px;
+  margin-inline: auto;
+  transform: translateX(-60px);
+  z-index: 10;
+}
+
+.magazine_visual {
+  position: absolute;
+  right: 40px;
+  z-index: 5;
+}
+
+.magazine_visual img {
+  z-index: -10000;
+}
+
+.magazine_btn {
+  position: absolute;
+  top: 262px;
+  left: 326px;
+}

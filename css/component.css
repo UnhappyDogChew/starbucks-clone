@@ -58,3 +58,13 @@
 .orange:hover {
   background-color: #b78341;
 }
+
+.black {
+  border-color: #000;
+  color: #000;
+}
+
+.black:hover {
+  background-color: #000;
+  color: #fff;
+}
