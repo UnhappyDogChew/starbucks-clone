@@ -47,3 +47,14 @@
   color: #000;
   text-decoration: underline;
 }
+
+/* ------------ colors ------------- */
+
+.orange {
+  border-color: #b78341;
+  color: #b78341;
+}
+
+.orange:hover {
+  background-color: #b78341;
+}

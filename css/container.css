@@ -255,3 +255,34 @@
 .summer_promo_text img {
   width: 100%;
 }
+
+.reserve {
+  height: 400px;
+  background: url(../img/230811_pc_reserve_bg.jpg) no-repeat center top;
+}
+
+.reserve_wrap {
+  position: relative;
+  width: 1127px;
+  height: 100%;
+  margin-inline: auto;
+}
+
+.reserve_inner {
+  position: absolute;
+  left: 210px;
+  top: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reserve_text {
+  margin-block-end: 30px;
+}
+
+.reserve_visual {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
