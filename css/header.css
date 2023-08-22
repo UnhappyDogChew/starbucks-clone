@@ -3,14 +3,19 @@
 }
 
 #gnb {
-  height: 100%;
+  background-color: #f6f5ef;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  z-index: 1000;
 }
 
 .wrap_gnb {
   position: relative;
-  /* background-color: antiquewhite; */
   width: 1100px;
 }
 
