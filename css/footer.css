@@ -1,4 +1,81 @@
 #footer {
-  background-color: darkcyan;
-  height: 100px;
+  background-color: #2c2a29;
+  text-align: center;
+}
+
+.footer_inner {
+  padding-inline: 208px;
+  padding-block: 44px;
+}
+
+.footer_menu {
+  background: url(../img/footer_logo.png) no-repeat top right;
+  min-width: 756px;
+  margin-inline: auto;
+  padding-inline-end: 14px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_menu ul {
+  flex: 210px;
+  text-align: start;
+  margin-block-end: 20px;
+}
+
+.footer_menu ul li:first-child a:any-link {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.footer_menu ul li a:any-link {
+  color: #fff;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.footer_award {
+  padding-block: 20px;
+  background-color: #282828;
+}
+
+.footer_award_list img {
+  margin-inline: 20px;
+}
+
+.footer_award_menu {
+  margin-block-start: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_award_play {
+  background: url(../img/footer_award_play.png) no-repeat right;
+  width: 14px;
+  height: 12px;
+  text-indent: -2000px;
+  overflow: hidden;
+}
+
+.footer_copywrite {
+  padding-block: 20px;
+  font-size: 12px;
+  word-break: break-all;
+}
+
+.footer_copywrite a[class^="menu-linear"]:any-link {
+  display: inline-block;
+  color: #ccc;
+}
+
+.footer_copywrite .btn-outlined {
+  margin: 20px 3px;
+}
+
+.footer_copywrite span {
+  margin-block: 10px;
+}
+
+.footer_copywrite a:any-link {
+  color: #fff;
 }

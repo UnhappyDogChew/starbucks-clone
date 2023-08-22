@@ -68,3 +68,31 @@
   background-color: #000;
   color: #fff;
 }
+
+[class^="menu-linear"] {
+  border-right: 1px solid #393939;
+  padding: 0 10px;
+}
+
+.green {
+  color: #00b050 !important;
+}
+
+.menu-linear-last {
+  border: none;
+}
+
+[class^="menu-linear-grey"] {
+  border-right: 1px solid #393939;
+  padding: 0 10px;
+  color: #999;
+}
+
+.menu-linear-grey-last {
+  border: none;
+}
+
+.copywrite_en {
+  color: #999;
+  line-height: 40px;
+}
