@@ -351,8 +351,8 @@
 
 .magazine {
   height: 400px;
-  background: url(../img/reserve_bg_pc.png) no-repeat center #fff;
-  background-size: cover;
+  background: url(../img/reserve_bg_pc.png) no-repeat center bottom #fff;
+  background-size: auto 353px;
 }
 
 .magazine_inner {
