@@ -479,3 +479,10 @@
   top: 290px;
   left: 586px;
 }
+
+.floating_promotion {
+  position: fixed;
+  top: 160px;
+  right: 20px;
+  z-index: 1001;
+}
