@@ -93,6 +93,7 @@
 
   .footer_menu {
     display: block;
+    min-width: initial;
   }
 
   .footer_menu ul {
