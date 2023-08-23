@@ -81,7 +81,9 @@
 }
 
 @media screen and (max-width: 1120px) {
-  /* TODO: 태블릿 반응성 추가 */
+  .footer_inner {
+    padding-inline: 100px;
+  }
 }
 
 @media screen and (max-width: 960px) {
