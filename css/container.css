@@ -597,7 +597,38 @@
     border-radius: 3px;
   }
 
-  /* TODO: 모바일 레이아웃 정의 */
+  .summer_promo {
+    width: 100%;
+    height: auto;
+    background: url(../img/2023_m_summer2_promotion_bg_1.jpg);
+    aspect-ratio: 640 / 1112;
+    background-size: cover;
+  }
+
+  .summer_promo {
+    text-align: center;
+  }
+
+  .summer_promo_img {
+    transform: none;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+  }
+
+  .summer_promo_inner {
+    top: 65%;
+    left: 22.5%;
+    width: 55%;
+  }
+
+  .pc {
+    display: none;
+  }
+
+  .m {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 660px) {
