@@ -79,3 +79,11 @@
 .footer_copywrite a:any-link {
   color: #fff;
 }
+
+@media screen and (max-width: 1120px) {
+  /* TODO: 태블릿 반응성 추가 */
+}
+
+@media screen and (max-width: 960px) {
+  /* TODO: 모바일 바응성 추가 */
+}
