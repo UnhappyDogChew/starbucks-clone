@@ -622,12 +622,48 @@
     width: 55%;
   }
 
+  .reserve {
+    aspect-ratio: 640 / 1056;
+    width: 100%;
+    height: auto;
+  }
+
+  .reserve_wrap {
+    width: 100%;
+  }
+
+  .reserve_visual {
+    top: 0;
+    left: 0;
+  }
+
+  .reserve_visual img {
+    width: 100%;
+  }
+
+  .reserve_inner {
+    top: 85%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    display: block;
+    text-align: center;
+  }
+
+  .reserve_text {
+    display: none;
+  }
+
   .pc {
     display: none;
   }
 
   .m {
     display: block;
+  }
+
+  .btn-outlined-ani {
+    font-size: 18px;
   }
 }
 
