@@ -87,5 +87,42 @@
 }
 
 @media screen and (max-width: 960px) {
-  /* TODO: 모바일 바응성 추가 */
+  .footer_inner {
+    padding: 0;
+  }
+
+  .footer_menu {
+    display: block;
+  }
+
+  .footer_menu ul {
+    margin: 0;
+  }
+
+  .footer_menu li {
+    box-sizing: border-box;
+  }
+
+  .footer_menu li {
+    width: 100%;
+    height: 40px;
+    padding-inline: 12px;
+    padding-block: 6px;
+    background-color: #635952;
+  }
+
+  .footer_menu li:first-child {
+    height: 50px;
+    padding-block: 6px;
+    background-color: #554c46;
+  }
+
+  .footer_copywrite a {
+    margin-block: 4px;
+  }
+
+  .footer_copywrite {
+    max-width: 380px;
+    margin-inline: auto;
+  }
 }
