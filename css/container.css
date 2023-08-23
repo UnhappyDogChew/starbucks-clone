@@ -229,7 +229,7 @@
 .summer_promo_wrap {
   margin-inline: auto;
   position: relative;
-  max-width: 1124px;
+  max-width: 1120px;
   height: 100%;
 }
 
@@ -268,7 +268,7 @@
 
 .reserve_wrap {
   position: relative;
-  width: 1127px;
+  width: 1120px;
   height: 100%;
   margin-inline: auto;
 }
@@ -301,7 +301,7 @@
 
 .favorite_inner {
   position: relative;
-  width: 1100px;
+  width: 1120px;
   height: 100%;
   margin-inline: auto;
 }
@@ -498,6 +498,37 @@
   display: none;
 }
 
+@media screen and (max-width: 1120px) {
+  /* TODO: 광고 섹션 테블릿 레이아웃 정의*/
+}
+
+@media screen and (max-width: 1020px) {
+  .prom_reward_header {
+    width: 35%;
+    margin-block-start: 30px;
+    margin-inline: 60px;
+    text-align: center;
+  }
+
+  .pc-br {
+    display: block;
+  }
+
+  .prom_reward_header a img {
+    width: auto;
+  }
+
+  .prom_reward_container,
+  .prom_reward_footer {
+    display: block;
+  }
+
+  .prom_reward_container_text,
+  .prom_reward_footer_text {
+    margin-block: 0 20px;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .main-visual_wrap {
     background-image: url(../img/2023_m_summer2_promotion_bg_2.jpg);
@@ -545,6 +576,8 @@
     font-weight: bold;
     border-radius: 3px;
   }
+
+  /* TODO: 모바일 레이아웃 정의 */
 }
 
 @media screen and (max-width: 660px) {
@@ -578,33 +611,6 @@
 
   .line_notice_right span {
     left: calc(20% + 221px);
-  }
-}
-
-@media screen and (max-width: 1020px) {
-  .prom_reward_header {
-    width: 35%;
-    margin-block-start: 30px;
-    margin-inline: 60px;
-    text-align: center;
-  }
-
-  .pc-br {
-    display: block;
-  }
-
-  .prom_reward_header a img {
-    width: auto;
-  }
-
-  .prom_reward_container,
-  .prom_reward_footer {
-    display: block;
-  }
-
-  .prom_reward_container_text,
-  .prom_reward_footer_text {
-    margin-block: 0 20px;
   }
 }
 
