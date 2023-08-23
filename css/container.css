@@ -499,7 +499,27 @@
 }
 
 @media screen and (max-width: 1120px) {
-  /* TODO: 광고 섹션 테블릿 레이아웃 정의*/
+  .reserve {
+    background-position-x: 40%;
+  }
+  .reserve_wrap,
+  .favorite_inner,
+  .magazine_inner,
+  .store_inner {
+    max-width: 960px;
+  }
+
+  .favorite_img {
+    width: 500px;
+  }
+
+  .magazine {
+    background-position-x: 54%;
+  }
+
+  .magazine_title {
+    left: -60px;
+  }
 }
 
 @media screen and (max-width: 1020px) {
