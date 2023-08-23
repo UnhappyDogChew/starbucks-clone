@@ -662,6 +662,60 @@
   .btn-outlined-ani {
     font-size: 18px;
   }
+
+  .favorite {
+    background: url(../img/2023_m_summer2_pick_bg.jpg) no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 640 / 1496;
+  }
+
+  .favorite_inner {
+    width: 100%;
+  }
+
+  .favorite_visual {
+    right: 15%;
+    width: 70%;
+  }
+
+  .favorite_img {
+    width: 100%;
+  }
+
+  .favorite_text {
+    top: 70%;
+    left: 15%;
+    width: 70%;
+  }
+
+  .favorite_text_content_01 {
+    background: url(../img/mobile_menu_txt01.png) no-repeat center;
+    background-size: contain;
+    width: 80%;
+    aspect-ratio: 407 / 84;
+    text-indent: -1000px;
+    margin-inline: auto;
+    margin-block: 0 20px;
+  }
+
+  .favorite_text_content_02 {
+    background: url(../img/mobile_menu_txt02.png) no-repeat center;
+    background-size: contain;
+    width: 100%;
+    aspect-ratio: 562 / 166;
+    text-indent: -2000px;
+    margin-inline: auto;
+    margin-block: 0 20px;
+  }
+
+  .favorite_btn {
+    top: 90%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 660px) {
